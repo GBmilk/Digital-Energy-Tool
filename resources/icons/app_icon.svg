@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="pinkPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8FB2"/>
+      <stop offset="50%" stop-color="#C17EEB"/>
+      <stop offset="100%" stop-color="#7E76E2"/>
+    </linearGradient>
+    <clipPath id="squircle"><path d="M 56.3 291.8 C 56.3 56.3 56.3 56.3 291.8 56.3 L 732.2 56.3 C 967.7 56.3 967.7 56.3 967.7 291.8 L 967.7 732.2 C 967.7 967.7 967.7 967.7 732.2 967.7 L 291.8 967.7 C 56.3 967.7 56.3 967.7 56.3 732.2 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#squircle)">
+    <rect width="1024" height="1024" fill="url(#pinkPurple)"/>
+    <ellipse cx="358.4" cy="225.3" rx="563.2" ry="430.1" fill="#FFFFFF" opacity="0.10"/>
+    <text x="50%" y="50%" dy="0.35em" text-anchor="middle"
+          font-family="Segoe UI Bold, Microsoft YaHei, Arial Bold, sans-serif"
+          font-weight="700" font-size="634"
+          fill="#FFFFFF" opacity="0.35"
+          transform="translate(12,12)">E</text>
+    <text x="50%" y="50%" dy="0.35em" text-anchor="middle"
+          font-family="Segoe UI Bold, Microsoft YaHei, Arial Bold, sans-serif"
+          font-weight="700" font-size="634" fill="#FFFFFF">E</text>
+  </g>
+</svg>

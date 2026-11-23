@@ -1,0 +1,65 @@
+{
+    "version": "1.0.0",
+    "app_name": "数字能量工具",
+    "theme": "light",
+    "score_rules": {
+        "吉星": {
+            "一级": 10,
+            "二级": 8,
+            "三级": 6,
+            "四级": 4
+        },
+        "凶星": {
+            "一级": -10,
+            "二级": -8,
+            "三级": -6,
+            "四级": -4
+        }
+    },
+    "rating_ranges": [
+        {
+            "min": 90,
+            "max": 100,
+            "rating": "很好",
+            "color": "#0E7A3D"
+        },
+        {
+            "min": 75,
+            "max": 89,
+            "rating": "好",
+            "color": "#2AA36A"
+        },
+        {
+            "min": 60,
+            "max": 74,
+            "rating": "一般",
+            "color": "#2E7DD1"
+        },
+        {
+            "min": 40,
+            "max": 59,
+            "rating": "不好",
+            "color": "#E8912D"
+        },
+        {
+            "min": 0,
+            "max": 39,
+            "rating": "凶",
+            "color": "#D94242"
+        }
+    ],
+    "no_rating": {
+        "rating": "暂无评定",
+        "color": "#8C8C8C"
+    },
+    "paths": {
+        "history_db": "data/history.db",
+        "default_export": "exports",
+        "default_image_save": "exports",
+        "config_file": "config/config.json"
+    },
+    "image": {
+        "width": 1920,
+        "padding": 64
+    }
+}
